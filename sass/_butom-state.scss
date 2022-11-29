@@ -1,0 +1,16 @@
+
+.hover:hover {
+    border: #ffffff solid 0.3rem;
+  }
+  .hover:hover p {
+    color: #960f0f;
+  }
+  .focus:focus {
+    background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+    color: #ffffff;
+  }
+  .focus:focus p {
+    color: #ffffff;
+  }
+  
+  
