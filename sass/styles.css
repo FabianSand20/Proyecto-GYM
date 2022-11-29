@@ -178,4 +178,99 @@ li {
   list-style: none;
 }
 
+.darrell a {
+  text-decoration: none;
+  color: #fff;
+}
+.darrell section {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 25px;
+}
+.darrell .navegation {
+  position: absolute;
+  left: 661px;
+}
+.darrell .default {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-top: 14px;
+}
+.darrell .default a {
+  display: block;
+  background: rgb(150, 15, 15);
+  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .desactive {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  margin-top: 14px;
+}
+.darrell .desactive a {
+  display: block;
+  background: rgb(0, 15, 93);
+  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .hover {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  margin-top: 14px;
+}
+.darrell .hover a {
+  display: block;
+  background: rgb(158, 158, 158);
+  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .funtional {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-top: 14px;
+}
+.darrell .funtional a {
+  display: block;
+  background: rgb(150, 15, 15);
+  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .funtional :hover {
+  background: rgb(158, 158, 158);
+  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
+}
+.darrell .funtional :focus {
+  background: rgb(0, 15, 93);
+  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
+}
+.darrell .poli {
+  width: 18px;
+  height: 27px;
+}
+
 /*# sourceMappingURL=styles.css.map */
