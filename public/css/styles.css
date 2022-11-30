@@ -1,0 +1,283 @@
+.contenedores {
+  background-color: rgba(55, 54, 57, 0.2666666667);
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.button--base {
+  background: linear-gradient(180deg, #9e9e9e 0%, #595959 100%);
+  box-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+  width: 18.75rem;
+  height: 5.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.3125rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+}
+.button--base:hover {
+  box-shadow: rgb(247, 247, 247) 0px 0px 4px 7px;
+  color: #960f0f;
+}
+.button--base :focus {
+  background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+  color: #ffffff;
+}
+
+.button--primary {
+  background: linear-gradient(180deg, #9e9e9e 0%, #595959 100%);
+  box-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+  width: 18.75rem;
+  height: 5.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.3125rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+}
+
+.button--secundary {
+  background: linear-gradient(180deg, #9e9e9e 0%, #595959 100%);
+  box-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+  width: 18.75rem;
+  height: 5.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.3125rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #1738e2 0%, #071041 100%);
+}
+
+.rojo1 {
+  background-color: #410000;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.rojo2 {
+  background-color: #720c0c;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.rojo3 {
+  background-color: #b81c1c;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.gris1 {
+  background-color: #595959;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.gris2 {
+  background-color: #777373;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.gris3 {
+  background-color: #a69f9f;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.azul1 {
+  background-color: #05003f;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.azul2 {
+  background-color: #02006b;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+.azul3 {
+  background-color: #2825db;
+  width: 185px;
+  color: white;
+  height: 35px;
+  left: 1571px;
+  top: 237px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  color: black;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.darrell a {
+  text-decoration: none;
+  color: #fff;
+}
+.darrell section {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 25px;
+}
+.darrell .navegation {
+  position: absolute;
+  left: 661px;
+}
+.darrell .default {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-top: 14px;
+}
+.darrell .default a {
+  display: block;
+  background: rgb(150, 15, 15);
+  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .desactive {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  margin-top: 14px;
+}
+.darrell .desactive a {
+  display: block;
+  background: rgb(0, 15, 93);
+  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .hover {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  margin-top: 14px;
+}
+.darrell .hover a {
+  display: block;
+  background: rgb(158, 158, 158);
+  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .funtional {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-top: 14px;
+}
+.darrell .funtional a {
+  display: block;
+  background: rgb(150, 15, 15);
+  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
+  border-radius: 25px;
+  width: 73px;
+  height: 40px;
+  border-radius: 29%;
+  padding-left: 30px;
+  padding-top: 19px;
+}
+.darrell .funtional :hover {
+  background: rgb(158, 158, 158);
+  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
+}
+.darrell .funtional :focus {
+  background: rgb(0, 15, 93);
+  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
+}
+.darrell .poli {
+  width: 18px;
+  height: 27px;
+}
+
+.content {
+  display: flex;
+}
+
+/*# sourceMappingURL=styles.css.map */
